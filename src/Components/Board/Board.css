@@ -1,0 +1,195 @@
+
+
+#Boardt{
+    display: none;
+    flex-direction: column;
+    height: 400vh;
+    width: 100%;
+    background-color: rgb(12,0,46);
+}
+
+#campotodo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+
+}
+
+#block1,#block2,#block3,#block4,#block5,#block6,#block7,#block8 {
+    height: 100px;
+    width: 100px;
+    
+
+}
+
+#divi1, #divi2, #divi3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rock1{
+    right: 200px;
+    height:120px;
+	width:120px;
+    background-color: rgb(173, 173, 173);
+	top:50%;
+	left:50%;
+	background-size:200px 200px;
+	border-radius: 80% 20% 32% 68% / 58% 22% 78% 42%;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+    transition-duration: 2s;
+}
+
+#rock1:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+#position1{
+    color: black;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+#rocknumber1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 40px;
+}
+
+#iconimage{
+    height: 100px;
+    width: 100px;
+}
+
+#iconimagecoelhovermelho1,#iconimagecoelhovermelho2,#iconimagecoelhovermelho3,
+#iconimagecoelhovermelho4,#iconimagecoelhovermelho5,#iconimagecoelhovermelho6,
+#iconimagecoelhovermelho7,#iconimagecoelhovermelho8,#iconimagecoelhovermelho9,
+#iconimagecoelhovermelho10,#iconimagecoelhovermelho11,#iconimagecoelhovermelho12,
+#iconimagecoelhovermelho13,#iconimagecoelhovermelho14,#iconimagecoelhovermelho15,
+#iconimagecoelhovermelho16,#iconimagecoelhovermelho17,#iconimagecoelhovermelho18,
+#iconimagecoelhovermelho19,#iconimagecoelhovermelho20,#iconimagecoelhovermelho21,
+#iconimagecoelhovermelho22,#iconimagecoelhovermelho23,#iconimagecoelhovermelho24,
+#iconimagecoelhovermelho25,#iconimagecoelhovermelho26,#iconimagecoelhovermelho27,
+#iconimagecoelhovermelho28,#iconimagecoelhovermelho29,
+#iconimagecoelhovermelho30{
+    visibility:hidden;
+    position: relative;
+    left: -20px;
+    top: -40px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+#iconimagecoelhoazul1,#iconimagecoelhoazul2,#iconimagecoelhoazul3,
+#iconimagecoelhoazul4,#iconimagecoelhoazul5,#iconimagecoelhoazul6,
+#iconimagecoelhoazul7,#iconimagecoelhoazul8,#iconimagecoelhoazul9,
+#iconimagecoelhoazul10,#iconimagecoelhoazul11,#iconimagecoelhoazul12,
+#iconimagecoelhoazul13,#iconimagecoelhoazul14,#iconimagecoelhoazul15,
+#iconimagecoelhoazul16,#iconimagecoelhoazul17,#iconimagecoelhoazul18,
+#iconimagecoelhoazul19,#iconimagecoelhoazul20,#iconimagecoelhoazul21,
+#iconimagecoelhoazul22,#iconimagecoelhoazul23,#iconimagecoelhoazul24,
+#iconimagecoelhoazul25,#iconimagecoelhoazul26,#iconimagecoelhoazul27,
+#iconimagecoelhoazul28,#iconimagecoelhoazul29,
+#iconimagecoelhoazul30 {
+    visibility:hidden;
+    position: relative;
+    top:-40px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+#iconimagecoelhopreto1,#iconimagecoelhopreto2,#iconimagecoelhopreto3,
+#iconimagecoelhopreto4,#iconimagecoelhopreto5,#iconimagecoelhopreto6,
+#iconimagecoelhopreto7,#iconimagecoelhopreto8,#iconimagecoelhopreto9,
+#iconimagecoelhopreto10,#iconimagecoelhopreto11,#iconimagecoelhopreto12,
+#iconimagecoelhopreto13,#iconimagecoelhopreto14,#iconimagecoelhopreto15,
+#iconimagecoelhopreto16,#iconimagecoelhopreto17,#iconimagecoelhopreto18,
+#iconimagecoelhopreto19,#iconimagecoelhopreto20,#iconimagecoelhopreto21,
+#iconimagecoelhopreto22,#iconimagecoelhopreto23,#iconimagecoelhopreto24,
+#iconimagecoelhopreto25,#iconimagecoelhopreto26,#iconimagecoelhopreto27,
+#iconimagecoelhopreto28,#iconimagecoelhopreto29,#iconimagecoelhopreto30{
+    visibility:hidden;
+    position: relative;
+    left: -80px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#iconimagecoelhoamarelo1,#iconimagecoelhoamarelo2,#iconimagecoelhoamarelo3,
+#iconimagecoelhoamarelo4,#iconimagecoelhoamarelo5,#iconimagecoelhoamarelo6,
+#iconimagecoelhoamarelo7,#iconimagecoelhoamarelo8,#iconimagecoelhoamarelo9,
+#iconimagecoelhoamarelo10,#iconimagecoelhoamarelo11,#iconimagecoelhoamarelo12,
+#iconimagecoelhoamarelo13,#iconimagecoelhoamarelo14,#iconimagecoelhoamarelo15,
+#iconimagecoelhoamarelo16,#iconimagecoelhoamarelo17,#iconimagecoelhoamarelo18,
+#iconimagecoelhoamarelo19,#iconimagecoelhoamarelo20,#iconimagecoelhoamarelo21,
+#iconimagecoelhoamarelo22,#iconimagecoelhoamarelo23,#iconimagecoelhoamarelo24,
+#iconimagecoelhoamarelo25,#iconimagecoelhoamarelo26,#iconimagecoelhoamarelo27,
+#iconimagecoelhoamarelo28,#iconimagecoelhoamarelo29,#iconimagecoelhoamarelo30{
+    visibility:hidden;
+    position: relative;
+    left: -150px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#iconimagecoelhorosa1,#iconimagecoelhorosa2,#iconimagecoelhorosa3,
+#iconimagecoelhorosa4,#iconimagecoelhorosa5,#iconimagecoelhorosa6,
+#iconimagecoelhorosa7,#iconimagecoelhorosa8,#iconimagecoelhorosa9,
+#iconimagecoelhorosa10,#iconimagecoelhorosa11,#iconimagecoelhorosa12,
+#iconimagecoelhorosa13,#iconimagecoelhorosa14,#iconimagecoelhorosa17,
+#iconimagecoelhorosa15,#iconimagecoelhorosa16,#iconimagecoelhorosa18,
+#iconimagecoelhorosa19,#iconimagecoelhorosa20,#iconimagecoelhorosa21,
+#iconimagecoelhorosa22,#iconimagecoelhorosa23,#iconimagecoelhorosa24,
+#iconimagecoelhorosa25,#iconimagecoelhorosa26,#iconimagecoelhorosa27,
+#iconimagecoelhorosa28,#iconimagecoelhorosa29,#iconimagecoelhorosa30{
+    visibility:hidden;
+    position: relative;
+    bottom: -50px;
+    left: -200px;
+    height: 50px;
+    width: 50px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#iconimagecoelhoverde1,#iconimagecoelhoverde2,#iconimagecoelhoverde3,
+#iconimagecoelhoverde4,#iconimagecoelhoverde5,#iconimagecoelhoverde6,
+#iconimagecoelhoverde7,#iconimagecoelhoverde8,#iconimagecoelhoverde9,
+#iconimagecoelhoverde10,#iconimagecoelhoverde11,#iconimagecoelhoverde12,
+#iconimagecoelhoverde13,#iconimagecoelhoverde14,#iconimagecoelhoverde15,
+#iconimagecoelhoverde16,#iconimagecoelhoverde17,#iconimagecoelhoverde18,
+#iconimagecoelhoverde19,#iconimagecoelhoverde20,#iconimagecoelhoverde21,
+#iconimagecoelhoverde22,#iconimagecoelhoverde23,#iconimagecoelhoverde24,
+#iconimagecoelhoverde25,#iconimagecoelhoverde26,#iconimagecoelhoverde27,
+#iconimagecoelhoverde28,#iconimagecoelhoverde29,#iconimagecoelhoverde30
+{
+    visibility:hidden;
+    position: relative;
+    left: -190px;
+    top: 55px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+

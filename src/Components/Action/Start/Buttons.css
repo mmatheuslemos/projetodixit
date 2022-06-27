@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+
+#buttonstart{
+    height: 80px;
+    width: 80%;
+    font-size: 40px;
+    background-color: rgb(64,56,67);
+    color: rgb(228,206,152);
+    font-family: "Righteous";
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#buttonstart:hover{
+    height: 80px;
+    width: 80%;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Righteous";
+    border: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

@@ -1,0 +1,207 @@
+
+:root{
+    --button-color: red;
+    --text-color-but:white;
+}
+
+
+.player1, .player2,
+.player3, .player4, .player5,
+.player6 {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+#imageperfil1,
+#imageperfil2,
+#imageperfil3,
+#imageperfil4,
+#imageperfil5,
+#imageperfil6 {
+    height: 150px;
+    position: relative;
+}
+
+#nameperfil1,
+#nameperfil2,
+#nameperfil3,
+#nameperfil4,
+#nameperfil5,
+#nameperfil6 {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 0 0 0.125em
+    red, 0 0 0.45em red;
+    filter: blur(0.8px);
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 1000;
+    animation: aparecerdesap 1s infinite linear;
+}
+
+@keyframes aparecerdesap{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(2.5px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.infojogo1,
+.infojogo2,
+.infojogo3,
+.infojogo4,
+.infojogo5,
+.infojogo6 {
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(64, 56, 67);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Roboto';
+    color: white;
+    border: none;
+    border-radius: 2%;
+    position: relative;
+    z-index: 999;
+}
+
+
+#ponto1,
+#ponto2,
+#ponto3,
+#ponto4,
+#ponto5,
+#ponto6 {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgb(241,217,163);
+    text-shadow: 0 0 0.125em
+    rgb(241,217,163), 0 0 0.45em currentColor;
+    position: relative;
+}
+
+#clasif1,
+#clasif2,
+#clasif3,
+#clasif4,
+#clasif5,
+#clasif6 {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding-right: 10px;
+    position: relative;
+}
+
+#botoesdeponto {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#buttonpoint1,#buttonpoint2,#buttonpoint3,
+#buttonpoint4,#buttonpoint5,#buttonpoint6 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    color: var(--button-color);
+    background-color: rgb(64, 56, 67);
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: var(--button-color) 4px solid;
+    box-shadow: inset 0 0 0.5em 0 var(--button-color),
+    0 0 0.4em 0 var(--button-color);
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+
+#buttonpoint1:hover,#buttonpoint2:hover,#buttonpoint3:hover,
+#buttonpoint4:hover,#buttonpoint5:hover,#buttonpoint6:hover {
+    background-color: var(--button-color);
+    color: var(--text-color-but);
+    text-shadow: none;
+}
+
+#buttonpointdir1,#buttonpointdir2,#buttonpointdir3,
+#buttonpointdir4,#buttonpointdir5,#buttonpointdir6 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    color: var(--button-color);
+    background-color: rgb(64, 56, 67);
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border: var(--button-color) 4px solid;
+    box-shadow: inset 0 0 0.5em 0 var(--button-color),
+    0 0 0.4em 0 var(--button-color);
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+
+#buttonpointdir1:hover,#buttonpointdir2:hover,#buttonpointdir3:hover,
+#buttonpointdir4:hover,#buttonpointdir5:hover,#buttonpointdir6:hover {
+    background-color: var(--button-color);
+    color: var(--text-color-but);
+    text-shadow: none;
+}
+
+#containerinfouser1,#containerinfouser2,#containerinfouser3,
+#containerinfouser4,#containerinfouser5,#containerinfouser6{
+    height: 80%;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#pontuaca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(241,217,163);
+    text-shadow: 0 0 0.125em
+    rgb(241,217,163), 0 0 0.45em currentColor;
+}
+
+.regiperfil1, .regiperfil2,
+.regiperfil3,.regiperfil4,
+.regiperfil5,.regiperfil6{
+     width: 50px;
+}
+
+#pontrank1, #pontrank2, #pontrank3,
+#pontrank4, #pontrank5, #pontrank6{
+    color: rgb(241,217,163);
+    text-shadow: 0 0 0.125em
+    rgb(241,217,163), 0 0 0.45em currentColor;
+}
