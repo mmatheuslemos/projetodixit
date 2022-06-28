@@ -53,7 +53,6 @@ function Addplayer() {
             document.getElementById('rabbitear' + (numerojog) + '2').style.border = '4px solid red'; 
             /*Tirar a opção da cor selecionada*/
             document.getElementById('vermelho').style.display = 'none';
-            
             coresdojogador[numerojog] = 'vermelho';
             /*colocar a borda da cor da imagem correspondente*/
             document.getElementById('photoperfil'+(numerojog)).style.setProperty('--div-color-corprincipal','red');
@@ -63,6 +62,8 @@ function Addplayer() {
             /*colocar os botoes coloridos*/
             document.getElementById('buttonpoint'+(numerojog)).style.setProperty('--button-color','red');
             document.getElementById('buttonpointdir'+(numerojog)).style.setProperty('--button-color','red');
+            /*colocar sombra e neon ao redor*/
+            document.getElementById('infojogo'+(numerojog)).style.setProperty('--div-color-aoredor','red');
             break;
         }
         case "Azul": {
@@ -83,7 +84,8 @@ function Addplayer() {
             /*colocar os botoes coloridos*/
             document.getElementById('buttonpoint'+(numerojog)).style.setProperty('--button-color','blue');
             document.getElementById('buttonpointdir'+(numerojog)).style.setProperty('--button-color','blue');
-            
+            /*colocar sombra e neon ao redor*/
+            document.getElementById('infojogo'+(numerojog)).style.setProperty('--div-color-aoredor','blue');
             break;
         }
         case "Amarelo": {
@@ -95,7 +97,6 @@ function Addplayer() {
             document.getElementById('rabbitear' + (numerojog) + '2').style.border = '4px solid yellow';
             /*Tirar a opção da cor selecionada*/
             document.getElementById('amarelo').style.display = 'none';
-            
             coresdojogador[numerojog] = 'amarelo';
             /*colocar a borda da cor da imagem correspondente*/
             document.getElementById('photoperfil'+(numerojog)).style.setProperty('--div-color-corprincipal','yellow');
@@ -105,6 +106,8 @@ function Addplayer() {
             /*colocar os botoes coloridos*/
             document.getElementById('buttonpoint'+(numerojog)).style.setProperty('--button-color','yellow');
             document.getElementById('buttonpointdir'+(numerojog)).style.setProperty('--button-color','yellow');
+            /*colocar sombra e neon ao redor*/
+            document.getElementById('infojogo'+(numerojog)).style.setProperty('--div-color-aoredor','yellow');
             break;
         }
         case "Preto": {
@@ -127,6 +130,8 @@ function Addplayer() {
             /*colocar os botoes coloridos*/
             document.getElementById('buttonpoint'+(numerojog)).style.setProperty('--button-color','black');
             document.getElementById('buttonpointdir'+(numerojog)).style.setProperty('--button-color','black');
+            /*colocar sombra e neon ao redor*/
+            document.getElementById('infojogo'+(numerojog)).style.setProperty('--div-color-aoredor','black');
             break;
         }
         case "Verde": {
@@ -147,6 +152,8 @@ function Addplayer() {
             /*colocar os botoes coloridos*/
             document.getElementById('buttonpoint'+(numerojog)).style.setProperty('--button-color','green');
             document.getElementById('buttonpointdir'+(numerojog)).style.setProperty('--button-color','green');
+            /*colocar sombra e neon ao redor*/
+            document.getElementById('infojogo'+(numerojog)).style.setProperty('--div-color-aoredor','green');
             break;
         }
         case "Rosa": {
@@ -167,6 +174,8 @@ function Addplayer() {
             /*colocar os botoes coloridos*/
             document.getElementById('buttonpoint'+(numerojog)).style.setProperty('--button-color','pink');
             document.getElementById('buttonpointdir'+(numerojog)).style.setProperty('--button-color','pink');
+            /*colocar sombra e neon ao redor*/
+            document.getElementById('infojogo'+(numerojog)).style.setProperty('--div-color-aoredor','pink');
             break;
         }
 

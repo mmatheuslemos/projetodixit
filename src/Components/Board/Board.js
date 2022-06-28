@@ -34,7 +34,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block6">
-                            <div id="rock1">
+                            <div id="rock5">
                                 <div id="rocknumber1">5
                                 <Rabbitsimage numero={5}/>
                                 </div>
@@ -57,7 +57,7 @@ function Board() {
 
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock2">
                                 <div id="rocknumber1">2
                                 <Rabbitsimage numero={2} />
                                 </div>
@@ -67,7 +67,7 @@ function Board() {
                             <img id='iconimage' src={iconedirec} alt='iconegrass'></img>
                         </div>
                         <div id="block5">
-                            <div id="rock1">
+                            <div id="rock4">
                                 <div id="rocknumber1">4
                                 <Rabbitsimage numero={4} />
                                 </div>
@@ -77,7 +77,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block7">
-                            <div id="rock1">
+                            <div id="rock6">
                                 <div id="rocknumber1">6
                                 <Rabbitsimage numero={6} />
                                 </div>
@@ -101,7 +101,7 @@ function Board() {
 
                         </div>
                         <div id="block4">
-                            <div id="rock1">
+                            <div id="rock3">
                                 <div id="rocknumber1">3
                                 <Rabbitsimage numero={3} />
                                 </div>
@@ -111,7 +111,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block6">
-                            <div id="rock1">
+                            <div id="rock7">
                                 <div id="rocknumber1">7
                                 <Rabbitsimage numero={7} />
                                 </div>
@@ -134,7 +134,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock12">
                                 <div id="rocknumber1">12
                                 <Rabbitsimage numero={12} />
                                 </div>
@@ -150,7 +150,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block7">
-                            <div id="rock1">
+                            <div id="rock8">
                                 <div id="rocknumber1">8
                                 <Rabbitsimage numero={8} />
                                 </div>
@@ -165,7 +165,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block2">
-                            <div id="rock1">
+                            <div id="rock13">
                                 <div id="rocknumber1">13
                                 <Rabbitsimage numero={13} />
                                 </div>
@@ -175,7 +175,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block4">
-                            <div id="rock1">
+                            <div id="rock11">
                                 <div id="rocknumber1">11
                                 <Rabbitsimage numero={11} />
                                 </div>
@@ -185,7 +185,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block6">
-                            <div id="rock1">
+                            <div id="rock9">
                                 <div id="rocknumber1">9
                                 <Rabbitsimage numero={9} />
                                 </div>
@@ -206,7 +206,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock14">
                                 <div id="rocknumber1">14
                                 <Rabbitsimage numero={14} />
                                 </div>
@@ -216,9 +216,9 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block5">
-                            <div id="rock1">
+                            <div id="rock10">
                                 <div id="rocknumber1">10
-                                <Rabbitsimage numero={10} />
+                                <Rabbitsimage numero={10}/>
                                 </div>
                             </div>
                         </div>
@@ -239,7 +239,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block2">
-                            <div id="rock1">
+                            <div id="rock15">
                                 <div id="rocknumber1">15
                                 <Rabbitsimage numero={15} />
                                 </div>
@@ -255,7 +255,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block6">
-                            <div id="rock1">
+                            <div id="rock19">
                                 <div id="rocknumber1">19
                                 <Rabbitsimage numero={19} />
                                 </div>
@@ -276,7 +276,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock16">
                                 <div id="rocknumber1">16
                                 <Rabbitsimage numero={16} />
                                 </div>
@@ -286,7 +286,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block5">
-                            <div id="rock1">
+                            <div id="rock18">
                                 <div id="rocknumber1">18
                                 <Rabbitsimage numero={18} />
                                 </div>
@@ -296,7 +296,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block7">
-                            <div id="rock1">
+                            <div id="rock20">
                                 <div id="rocknumber1">20
                                 <Rabbitsimage numero={20} />
                                 </div>
@@ -317,7 +317,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block4">
-                            <div id="rock1">
+                            <div id="rock17">
                                 <div id="rocknumber1">17
                                 <Rabbitsimage numero={17} />
                                 </div>
@@ -327,7 +327,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block6">
-                            <div id="rock1">
+                            <div id="rock21">
                                 <div id="rocknumber1">21
                                 <Rabbitsimage numero={21} />
                                 </div>
@@ -350,7 +350,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock26">
                                 <div id="rocknumber1">26
                                 <Rabbitsimage numero={26} />
                                 </div>
@@ -366,7 +366,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block7">
-                            <div id="rock1">
+                            <div id="rock22">
                                 <div id="rocknumber1">22
                                 <Rabbitsimage numero={22} />
                                 </div>
@@ -381,7 +381,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block2">
-                            <div id="rock1">
+                            <div id="rock27">
                                 <div id="rocknumber1">27
                                 <Rabbitsimage numero={27} />
                                 </div>
@@ -391,7 +391,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block4">
-                            <div id="rock1">
+                            <div id="rock25">
                                 <div id="rocknumber1">25
                                 <Rabbitsimage numero={25} />
                                 </div>
@@ -401,7 +401,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block6">
-                            <div id="rock1">
+                            <div id="rock23">
                                 <div id="rocknumber1">23
                                 <Rabbitsimage numero={23} />
                                 </div>
@@ -422,7 +422,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock28">
                                 <div id="rocknumber1">28
                                 <Rabbitsimage numero={28} />
                                 </div>
@@ -432,7 +432,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block5">
-                            <div id="rock1">
+                            <div id="rock24">
                                 <div id="rocknumber1">24
                                 <Rabbitsimage numero={24} />
                                 </div>
@@ -455,7 +455,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block2">
-                            <div id="rock1">
+                            <div id="rock29">
                                 <div id="rocknumber1">29
                                 <Rabbitsimage numero={29} />
                                 </div>
@@ -484,7 +484,7 @@ function Board() {
                             <img id='iconimage' src={iconegrama} alt='iconegrass'></img>
                         </div>
                         <div id="block3">
-                            <div id="rock1">
+                            <div id="rock30">
                                 <div id="rocknumber1">30
                                 <Rabbitsimage numero={30} />
                                 </div>

@@ -33,21 +33,21 @@
     align-items: center;
 }
 
-#rock1{
+#rock1, #rock2, #rock3, #rock4, #rock5, #rock6, #rock7, #rock8,
+#rock9, #rock10, #rock11, #rock12, #rock13, #rock14, #rock15,
+#rock16, #rock17, #rock18, #rock19, #rock20, #rock21, #rock22,
+#rock23, #rock24, #rock25, #rock26, #rock27, #rock28, #rock29,
+#rock30{
     right: 200px;
     height:120px;
 	width:120px;
-    background-color: rgb(173, 173, 173);
-	top:50%;
-	left:50%;
+    background-color: black;
+	top: 10%;
+	left: 10%;
 	background-size:200px 200px;
 	border-radius: 80% 20% 32% 68% / 58% 22% 78% 42%;
-    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
     transition-duration: 2s;
-}
-
-#rock1:hover{
-    transform: scale(1.2);
+    position: relative;
 }
 
 
@@ -66,7 +66,8 @@
     color: white;
     font-size: 50px;
     position: relative;
-    left: 40px;
+    left: 18px;
+    top: 20px;
 }
 
 #iconimage{

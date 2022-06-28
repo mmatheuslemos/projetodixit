@@ -36,7 +36,7 @@ export function Playertodos(props) {
                 <div className={'regiperfil' + (props.numberp)}>
                     <Rabbittodos numbr={props.numberp} />
                 </div>
-                <div className={'infojogo' + (props.numberp)}>
+                <div id={'infojogo' + (props.numberp)}>
                     <Photoperfil numer={props.numberp} />
                     <div id={"containerinfouser"+(props.numberp)}>
                         <h1 id={'nameperfil' + (props.numberp)}> </h1>
@@ -50,7 +50,7 @@ export function Playertodos(props) {
                         </div>
                         <div id="botoesdeponto">
                             <audio id="audio" src={videogame}></audio>
-                            <button onClick={() => { Addpoints(); movercoelho(); Ranking(); Aud() }} id={"buttonpoint"+(props.numberp)}>+</button>
+                            <button onClick={() => { Addpoints(); movercoelho(); Ranking(); Aud()}} id={"buttonpoint"+(props.numberp)}>+</button>
                             <button onClick={() => { Removepoints(); movercoelhoparatras(); Ranking(); Aud() }} id={"buttonpointdir"+(props.numberp)}>-</button>
                         </div>
                     </div>

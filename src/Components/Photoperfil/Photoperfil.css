@@ -92,6 +92,19 @@
     transform: scale(0.5);
     top: -20px;
     left: -135px;
+    border: solid 4px yellow;
+    z-index: 999;
+}
+
+#perfilboard6::before{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%; 
+    background-color: yellow;
+    filter: blur(20px);
+    z-index: -1;
 }
 
 #perfilboard5{
@@ -106,6 +119,19 @@
     transform: scale(0.5);
     top: 70px;
     left: 45px;
+    border: solid 4px green;
+    z-index: 999;
+}
+
+#perfilboard5::before{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%; 
+    background-color: green;
+    filter: blur(20px);
+    z-index: -1;
 }
 
 #perfilboard4{
@@ -120,6 +146,19 @@
     transform: scale(0.5);
     top: 0px;
     left: 90px;
+    border: solid 4px rgb(113, 113, 113);
+    z-index: 999;
+}
+
+#perfilboard4::before{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%; 
+    background-color: rgb(113, 113, 113);
+    filter: blur(20px);
+    z-index: -1;
 }
 
 #perfilboard3{
@@ -134,8 +173,20 @@
     transform: scale(0.5);
     top: 80px;
     left: -50px;
+    border: solid 4px pink;
+    z-index: 999;
 }
 
+#perfilboard3::before{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%; 
+    background-color: pink;
+    filter: blur(20px);
+    z-index: -1;
+}
 
 #perfilboard2{
     display: none;
@@ -149,6 +200,19 @@
     transform: scale(0.5);
     top: -120px;
     left: 45px;
+    border: solid 4px blue;
+    z-index: 999;
+}
+
+#perfilboard2::before{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%; 
+    background-color: blue;
+    filter: blur(20px);
+    z-index: -1;
 }
 
 #perfilboard1{
@@ -163,6 +227,19 @@
     transform: scale(0.5);
     top: -120px;
     left: -20px;
+    border: solid 4px red;
+    z-index: 999;
+}
+
+#perfilboard1::before{
+    content: '';
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%; 
+    background-color: red;
+    filter: blur(20px);
+    z-index: -1;
 }
 
 
